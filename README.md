@@ -1,1 +1,3 @@
-# resume
+# Justin Richards Resume
+
+## coming soon....
