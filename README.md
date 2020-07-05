@@ -4,25 +4,31 @@
 
 - todo
   
-## Goals
-
-- todo
-
+  
 ## Work Experience
 
 ### SRE/DevOps
 - Mar 2019 - Current. Site Reliability Engineering - Norwegian Block Exchange
-  - Maintaining and development of a crypto currency exchange.
-  - We are a Google Cloud Platform shop, focused on GKE and Google App Engine.
-  - Focused on containerization, kubernetes and microservices.
-  - Our services are mostly Python 3, with some Golang, with a node.js frontend.
-  - The platform is designed around using Apache Kafka for interservice messaging, and Apache Cassandra for Data storage. We are currently running both these in Kubernetes.
-  - Created tooling for secrets and TLS management with Hashicorp Vault, python and bash.
-  - Pipelines are currently done with Cloud build from Google
+  - NBX is crypto exchange based out of Norway. The company is a start-up with backing from Norwegian Air Shuttle. The initial goal is to allow trading of crypto while earning reward points for Norwegian Air Shuttle.
+  - As a member of the site reliability team, I was responsible to work with the backend development team to design and deploy a container based microservice infrastructure. The stack used consisted of:
+    - Google Cloud Platform.
+    - Google Kubernetes Engine (GKE).
+    - Google App Engine (GAP)
+    - Github
+    - HashiCorp Vault
+    - Cloud Build
+    - Cassandra
+    - Kafka
+    - nginx-ingress
+    - CloudFlare WAF/DNS
+  - As part of role in SRE I used the following languages for scripting and development:
+    - Python 3
+    - Bash/Shellscript
+    - HCL
 
 - Sept 2017 -  Jan 2019. Configuration Engineering - CloudOps (DevOps/SRE team). Ping Identity
   - Configuration Engineering at Ping Identity is responsible for all the labs and testing environments for the Product Development teams located around the world. 
-  - followed devops and infrastructure-as-code methodologies on the team.
+  - followed DevOps and infrastructure-as-code methodologies on the team.
   - A Amazon Web Service shop, however we have some services on Azure, and physical servers. 
   - Our Configuration and orchestrations tool stack consists of:
     - SaltStack, Terraform, vagrant, servSpec, Packer and Scalr.
